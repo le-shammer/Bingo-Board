@@ -311,4 +311,4 @@ for i in range(1, total_cells + 1):
         return style
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port="10000", host="0.0.0.0")
